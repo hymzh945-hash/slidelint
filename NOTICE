@@ -1,0 +1,9 @@
+SheetAudit
+Copyright (c) 2026 SheetAudit
+
+This product builds on openpyxl (https://openpyxl.readthedocs.io), MIT Licence,
+Copyright (c) 2010-2024 openpyxl contributors. openpyxl is used unmodified as a
+runtime dependency for reading .xlsx/.xlsm workbooks. Its MIT terms permit
+commercial use and distribution; this notice is kept per the licence.
+
+No other third-party code is bundled.

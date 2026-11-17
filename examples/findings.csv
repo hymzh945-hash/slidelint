@@ -1,0 +1,26 @@
+severity,check,slide,target,detail
+high,placeholder_text,2,TextBox 2,"placeholder copy left in slide: ""Lorem ipsum dolor sit amet, consectetur adipisci"""
+high,text_overflow,2,TextBox 2,334 chars in a box that fits about 120 at 18pt
+high,off_slide,3,TextBox 1,"shape sits outside the 13.33x7.50in canvas (right +1.27in, bottom +0.60in)"
+medium,overlapping_text,3,TextBox 2 / TextBox 3,two text boxes overlap 100% — one will cover the other
+medium,font_outlier,4,TextBox 4,"""Georgia"" appears once in the whole deck"
+medium,font_outlier,4,TextBox 5,"""Verdana"" appears once in the whole deck"
+medium,font_outlier,4,TextBox 6,"""Courier New"" appears once in the whole deck"
+medium,font_outlier,4,TextBox 7,"""Tahoma"" appears once in the whole deck"
+medium,tiny_text,2,TextBox 3,8pt text will not survive a projector or a phone
+medium,font_size_sprawl,4,whole slide,"8 distinct font sizes on one slide: 9pt, 10.5pt, 12pt, 14pt, 17pt, 21pt, 26pt, 30pt"
+medium,tiny_text,4,TextBox 2,9pt text will not survive a projector or a phone
+medium,tiny_text,4,TextBox 3,10.5pt text will not survive a projector or a phone
+medium,missing_title,3,slide,no title placeholder text — the audience has no anchor
+medium,missing_title,5,slide,no title placeholder text — the audience has no anchor
+low,duplicate_title,6,Revenue bridge,same title already used on slide 2
+low,reading_load,4,whole slide,146 words on one slide (over 90)
+medium,missing_alt_text,4,Picture 11,image alt text is empty or just the file name
+low,no_speaker_notes,2,slide,no speaker notes — nobody can hand this slide to a colleague
+low,no_speaker_notes,3,slide,no speaker notes — nobody can hand this slide to a colleague
+low,no_speaker_notes,4,slide,no speaker notes — nobody can hand this slide to a colleague
+low,no_speaker_notes,5,slide,no speaker notes — nobody can hand this slide to a colleague
+low,no_speaker_notes,6,slide,no speaker notes — nobody can hand this slide to a colleague
+low,unterminated_sentence,3,TextBox 1,"sentence has no closing punctuation: ""This box runs off the right edge of the slide"""
+low,unterminated_sentence,4,TextBox 10,"sentence has no closing punctuation: ""Pricing moved in two regions while volume held flat """
+low,unterminated_sentence,6,TextBox 2,"sentence has no closing punctuation: ""Next quarter we expect the same shape as the previou"""
